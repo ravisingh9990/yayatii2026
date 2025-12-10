@@ -27,41 +27,7 @@
     <!-- wrapper -->
     <div class="mil-wrapper" id="top">
 
-        <!-- cursor -->
-        <div class="mil-ball">
-            <span class="mil-icon-1">
-                <svg viewBox="0 0 128 128">
-                    <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
-                </svg>
-            </span>
-            <div class="mil-more-text">More</div>
-            <div class="mil-choose-text">Сhoose</div>
-        </div>
-        <!-- cursor end -->
 
-        <!-- preloader -->
-        <div class="mil-preloader">
-            <div class="mil-preloader-animation">
-                <div class="mil-pos-abs mil-animation-1">
-                    <p class="mil-h3 mil-muted mil-thin">Pioneering</p>
-                    <p class="mil-h3 mil-muted">Creative</p>
-                    <p class="mil-h3 mil-muted mil-thin">Excellence</p>
-                </div>
-                <div class="mil-pos-abs mil-animation-2">
-                    <div class="mil-reveal-frame">
-                        <p class="mil-reveal-box"></p>
-                        <p class="mil-h3 mil-muted mil-thin">yayatii.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- preloader end -->
-
-        <!-- scrollbar progress -->
-        <div class="mil-progress-track">
-            <div class="mil-progress"></div>
-        </div>
-        <!-- scrollbar progress end -->
 
         <!-- menu -->
         <div class="mil-menu-frame">
@@ -82,7 +48,7 @@
                             <nav class="mil-main-menu" id="swupMenu">
                                 <ul>
                                     <li class="mil-has-children mil-active">
-                                        <a href="{{ url('/') }}">Homepage</a>
+                                        <a href="{{ url('#.') }}">Home</a>
                                         <ul>
                                             <li><a href="home-1.html">Landing page</a></li>
                                             <li><a href="home-2.html">Personal</a></li>
@@ -90,7 +56,7 @@
                                         </ul>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="{{ url('/portfolio') }}">Portfolio</a>
+                                        <a href="{{ url('#.') }}">Portfolio</a>
                                         <ul>
                                             <li><a href="portfolio-1.html">Grid type 1</a></li>
                                             <li><a href="portfolio-2.html">Grid type 2</a></li>
@@ -98,7 +64,7 @@
                                         </ul>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="{{ url('/Service') }}">Services</a>
+                                        <a href="{{ url('#.') }}">Services</a>
                                         <ul>
                                             <li><a href="services.html">Services List</a></li>
                                             <li><a href="service.html">Single service</a></li>
@@ -112,11 +78,11 @@
                                         </ul>
                                     </li>
                                     <li class="mil-has-children">
-                                        <a href="#.">Other pages</a>
+                                        <a href="#.">Info</a>
                                         <ul>
                                             <li><a href="{{ url('/team') }}">Team</a></li>
+                                            <li><a href="{{ url('/about') }}">About Us</a></li>
                                             <li><a href="{{ url('/contact') }}">Contact</a></li>
-                                            <li><a href="{{ url('/404') }}">404</a></li>
                                         </ul>
                                     </li>
                                 </ul>

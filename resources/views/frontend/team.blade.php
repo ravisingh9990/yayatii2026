@@ -7,7 +7,7 @@
     <!-- wrapper -->
     <div class="mil-wrapper" id="top">
 
-        <!-- cursor -->
+        {{-- <!-- cursor -->
         <div class="mil-ball">
             <span class="mil-icon-1">
                 <svg viewBox="0 0 128 128">
@@ -41,7 +41,7 @@
         <div class="mil-progress-track">
             <div class="mil-progress"></div>
         </div>
-        <!-- scrollbar progress end -->
+        <!-- scrollbar progress end --> --}}
 
         <!-- menu -->
         <div class="mil-menu-frame">
